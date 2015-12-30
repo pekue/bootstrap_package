@@ -1,4 +1,4 @@
-$(function() {
+(function($) {
 
     /**
      * Toggle collapsed class on navbar toggle button to change
@@ -12,4 +12,4 @@ $(function() {
             $('.navbar-toggle').addClass('collapsed');
     });
 
-});
+})(jQuery);

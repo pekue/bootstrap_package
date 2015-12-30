@@ -1,4 +1,4 @@
-$(function() {
+(function($) {
 
     /**
      * Enable swipe support for bootstrap carousel
@@ -30,4 +30,4 @@ $(function() {
     }
     $(document).on('click', preventGhostClick);
 
-});
+})(jQuery);
